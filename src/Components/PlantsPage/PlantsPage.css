@@ -1,0 +1,104 @@
+.background {
+    background-color: #f8f8f8;
+    padding: 20px;
+}
+.plants-page-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 80px 0px;
+    background-color: white; 
+    border-radius: 8px;
+    margin-top: 80px;
+}
+
+.plants-page-product-image {
+    width: 400px;
+    height: 450px;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.plants-page-name {
+    font-family: 'Arial', sans-serif;
+    font-size: 25px;
+    cursor: pointer;
+}
+.plants-page-description {
+    font-family: 'Georgia', serif;
+    font-size: 15px;
+    color: gray;
+    cursor: pointer;
+}
+
+@media (max-width: 392px) {
+    .plants-page-product-image {
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+    }
+}
+
+.plants-page-image-container {
+    position: relative;
+}
+
+.plants-page-add-to-cart-icon {
+    position: absolute;
+    top: 10%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.plants-page-image-container:hover .plants-page-add-to-cart-icon {
+    opacity: 1;
+}
+
+.plants-page-add-to-cart-icon:hover {
+    background-color: black;
+}
+.plants-page-container a {
+    text-decoration: none;
+    color: inherit
+}
+.plants-page-container h1,
+.plants-page-container h2 {
+    margin: 0;
+    padding: 0; 
+}
+/***************** Pafenation *************************/
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    padding: 20px 0; 
+}
+
+.pagination-button {
+    margin: 0 5px; 
+    padding: 5px 10px; 
+    font-size: 14px; 
+    border: none; 
+    border-radius: 5px; 
+    background-color: #f0f0f0; 
+    cursor: pointer;
+    height: 50px;
+}
+
+.pagination-button:hover {
+    background-color: #e0e0e0;
+}
+
+.pagination-button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
