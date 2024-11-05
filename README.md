@@ -1,5 +1,6 @@
 E-Commerce Plants World 🌿
-Live Demo
+
+Live Demo : https://e-commerce-plants-world.netlify.app/
 
 Welcome to E-Commerce Plants World, an online platform dedicated to bringing plant enthusiasts together with a wide variety of plants and gardening supplies. Built with ReactJS, this web application provides a seamless shopping experience for users looking to enhance their homes and gardens with beautiful plants.
 
